@@ -1,5 +1,5 @@
 {
-    "name": "sebastiansulinski/laravel-currency",
+    "name": "rikless/laravel-currency",
     "description": "Currency component for Laravel 5+",
     "require": {
         "php": "^7.1",
@@ -9,8 +9,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Sebastian Sulinski",
-            "email": "info@ssdtutorials.com"
+            "name": "rikless",
+            "email": "git@fh.gd"
         }
     ],
     "minimum-stability": "stable",
