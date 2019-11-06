@@ -13,7 +13,7 @@
       "email": "git@fh.gd"
     }
   ],
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "autoload": {
     "psr-4": {
       "SSD\\Currency\\": "src"
