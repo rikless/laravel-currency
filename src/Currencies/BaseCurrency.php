@@ -20,6 +20,11 @@ abstract class BaseCurrency
     protected $postfix_separator = '';
 
     /**
+     * @var int
+     */
+    public $numeric_iso_code;
+
+    /**
      * Convert value to decimal.
      *
      * @param  float $value
