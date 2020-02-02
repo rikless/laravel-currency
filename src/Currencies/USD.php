@@ -13,4 +13,9 @@ class USD extends BaseCurrency
      * @var string
      */
     protected $postfix = 'USD';
+
+    /**
+     * @var int
+     */
+    public $numeric_iso_code = 840;
 }

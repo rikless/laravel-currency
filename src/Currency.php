@@ -204,4 +204,16 @@ class Currency
 
         return call_user_func_array([$this->provider, $name], $arguments);
     }
+
+    /**
+     * Get numeric iso code of currency.
+     *
+     * @param  string $currency
+     * @return int
+     */
+    public function getNumericIsoCode(string $currency = null): int
+    {
+        $className = $this->getClass($currency);
+        return (new $className)->numeric_iso_code;
+    }
 }
